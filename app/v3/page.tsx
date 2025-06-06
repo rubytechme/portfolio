@@ -201,7 +201,7 @@ const RubyPortfolio: FC = () => {
         )}
       </AnimatePresence>
 
-      <div className="relative z-10 text-white w-full min-h-screen px-4 sm:px-6 lg:px-8 py-12 md:py-20">
+      <div className="relative z-10 text-white w-full min-h-screen px-[1rem] lg:px-8 py-4 md:py-20">
         <div className="w-full mx-auto max-w-7xl text-white">
           {/* Enhanced Hero Section */}
           <motion.div
@@ -238,7 +238,7 @@ const RubyPortfolio: FC = () => {
 
               <div className="relative z-10">
                 <motion.h1 
-                  className="text-4xl sm:text-5xl md:text-6xl lg:text-[5rem] xl:text-[10rem] font-black leading-[0.9] mb-8 text-white"
+                  className="text-6xl sm:text-5xl md:text-6xl lg:text-[5rem] xl:text-[10rem] font-black leading-[0.9] mb-8 text-white"
                   variants={itemVariants}
                 >
                   RUBY
@@ -256,11 +256,11 @@ const RubyPortfolio: FC = () => {
                     Founder & Managing Director
                   </h2>
                   <div className="flex items-center gap-3">
-                    <div className="h-px bg-gradient-to-r from-green-400 to-green-800 flex-1"></div>
+                    <div className="h-px bg-white flex-1"></div>
                     <span className="text-2xl md:text-3xl text-white font-bold">
                       Digitaley Drive
                     </span>
-                    <div className="h-px bg-gradient-to-r from-green-800 to-green-400 flex-1"></div>
+                    <div className="h-px bg-white flex-1"></div>
                   </div>
                 </motion.div>
 
@@ -358,7 +358,7 @@ const RubyPortfolio: FC = () => {
             <div className="lg:col-span-4 order-1 lg:order-2">
               {/* Enhanced Quote Section */}
               <motion.div
-                className="backdrop-blur-xl bg-white/[0.02] border border-white/10 rounded-3xl p-10 md:p-12 mb-12 relative overflow-hidden"
+                className="backdrop-blur-xl bg-white/[0.02] md:border border-white/10 rounded-3xl md:p-12 mb-12 relative overflow-hidden"
                 initial={{ opacity: 0, y: 30, scale: 0.95 }}
                 animate={{ opacity: 1, y: 0, scale: 1 }}
                 transition={{ duration: 1, delay: 0.4 }}
@@ -401,7 +401,7 @@ const RubyPortfolio: FC = () => {
               
               {/* Enhanced Sections */}
               <motion.div
-                className="rounded-3xl p-8 md:p-10 relative overflow-hidden"
+                className="md:p-10 relative overflow-hidden"
                 initial="hidden"
                 animate="visible"
                 variants={containerVariants}
@@ -414,7 +414,7 @@ const RubyPortfolio: FC = () => {
                     {sections.map((section, index) => (
                       <motion.p 
                         key={index}
-                        className="text-white leading-relaxed text-base md:text-2xl font-light"
+                        className="text-white leading-relaxed text-lg md:text-2xl font-light"
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: index * 0.2 }}
@@ -436,13 +436,13 @@ const RubyPortfolio: FC = () => {
             transition={{ delay: 1.5 }}
           >
             <motion.div 
-              className="backdrop-blur-xl bg-white/[0.02] border border-white/10 rounded-3xl p-10 md:p-12"
+              className="backdrop-blur-xl bg-white/[0.02] md:border border-white/10 rounded-3xl md:p-12"
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 1.6 }}
             >
               <motion.h4 
-                className="text-3xl md:text-4xl font-bold mb-12 text-white text-center"
+                className="text-3xl md:text-4xl font-bold mb-12 text-white md:text-center"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 1.7 }}
