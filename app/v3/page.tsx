@@ -255,7 +255,7 @@ const RubyPortfolio: FC = () => {
         )}
       </AnimatePresence>
 
-      <div className="relative z-10 text-white w-full min-h-screen px-[1rem] lg:px-8 py-0">
+      <div className="relative z-10 text-white w-full min-h-screen lg:px-8 py-0">
         <div className="w-full mx-auto max-w-7xl text-white">
           {/* Enhanced Hero Section */}
           <motion.div
@@ -290,17 +290,17 @@ const RubyPortfolio: FC = () => {
               >
                 <Sparkles size={24} />
               </motion.div>
-              <div className='flex gap-6 items-end'>
-                <div className='w-88 h-auto ml-8 mb-8'>
+              <div className='flex gap-6 items-end flex-col md:flex-row'>
+                <div className='w-full md:w-88 h-auto mb-8'>
                   <Image
                     src="/Passport from WhatsApp.JPG"
                     alt="Ruby Ihekweme"
                     width={384}
                     height={384}
-                    className="w-full h-full max-h-96 object-cover rounded-3xl"
+                    className="w-full h-full max-h-96 object-cover rounded-xl md:rounded-3xl"
                   />
                 </div>
-                <div className="relative z-10 mb-8">
+                <div className="relative z-10 mb-0 md:mb-8">
                   <motion.h1
                     className="text-6xl sm:text-5xl font-black leading-[0.9] mb-8 text-white"
                     variants={itemVariants}
@@ -324,23 +324,15 @@ const RubyPortfolio: FC = () => {
                       <span className="text-2xl md:text-3xl text-white font-bold">
                         Digitaley Drive
                       </span>
-                      {/* <div className="h-px bg-white flex-1"></div> */}
                     </div>
                   </motion.div>
-
-                  {/* <motion.p
-                  className="text-lg md:text-xl text-white font-light max-w-3xl"
-                  variants={itemVariants}
-                >
-                  Transforming African education through AI, gamification, and community learning
-                </motion.p> */}
                 </div>
               </div>
             </motion.div>
           </motion.div>
 
           {/* Enhanced Main Content */}
-          <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 lg:gap-12">
+          <div className="gap-8 lg:gap-12">
             {/* Enhanced Sidebar */}
             {/* <div className="lg:col-span-1 order-2 lg:order-1">
               <motion.div 
@@ -423,7 +415,7 @@ const RubyPortfolio: FC = () => {
             <div className="lg:col-span-4 order-1 lg:order-2">
               {/* Enhanced Quote Section */}
               <motion.div
-                className="p-8 py-0"
+                className="md:p-8 py-0"
                 initial={{ opacity: 0, y: 30, scale: 0.95 }}
                 animate={{ opacity: 1, y: 0, scale: 1 }}
                 transition={{ duration: 1, delay: 0.4 }}
@@ -447,7 +439,7 @@ const RubyPortfolio: FC = () => {
                 </motion.h3> */}
 
                 <motion.div
-                  className="relative z-10"
+                  className="relative z-10 mb-8 w-full"
                   initial={{ opacity: 0, y: 15 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.8, delay: 0.8 }}
@@ -456,7 +448,7 @@ const RubyPortfolio: FC = () => {
                     <p className="text-lg md:text-2xl text-white font-bold mb-2 leading-relaxed">Biography</p>
                     <p className="text-lg md:text-2xl text-white font-light leading-relaxed">
                       Ruby Ihekweme is the Founder & CEO of DigitaleyDrive, an edtech startup that powers the African Education sector by combining artificial intelligence, gamification and community learning to create personalized, engaging experiences, contributing
-                      <span className="font-bold text-2xl mx-2">
+                      <span className="font-bold text-xl md:text-2xl mx-2">
                         $18.3 billion
                       </span>
                       to Nigeria's digital economy.
