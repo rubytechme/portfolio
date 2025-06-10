@@ -9,7 +9,7 @@ const sections = [
     content: 'Her core expertise lies in educational innovation, digital transformation, data governance and analytics.'
   },
   {
-    content: 'Ruby received her BSc in Economics from the University of Lagos and a Diploma in Finance. She is an Associate Accounting Technician and Professional Chartered Accountant certified by Institute of Chartered Accountants of NigeriaRuby has over 6 years of consulting experience. Prior to starting Digitaley Drive. She played a big role in the technology sector as a data analytics & insights expert. Supporting firms with core analytics and reporting expertise needed to launch, scale and sustain. She started in KPMG, and moved up to 4 corporate organizations until Knight Ventures.'
+    content: 'Ruby received her BSc in Economics from the University of Lagos and a Diploma in Finance. She is an Associate Accounting Technician and Professional Chartered Accountant certified by Institute of Chartered Accountants of Nigeria. Ruby has over 6 years of consulting experience, Prior to starting Digitaley Drive. She played a big role in the technology sector as a data analytics & insights expert. Supporting firms with core analytics and reporting expertise needed to launch, scale and sustain. She started in KPMG, and moved up to 4 corporate organizations until Knight Ventures.'
   },
   {
     content: 'While she was at knight ventures, she supported tech enabled startups across the education, fintech and energy sector in achieving Product Market Fit through various methodologies, research and evaluation. '
@@ -333,84 +333,7 @@ const RubyPortfolio: FC = () => {
 
           {/* Enhanced Main Content */}
           <div className="gap-8 lg:gap-12">
-            {/* Enhanced Sidebar */}
-            {/* <div className="lg:col-span-1 order-2 lg:order-1">
-              <motion.div 
-                className="backdrop-blur-xl bg-white/[0.02] border border-white/10 rounded-3xl p-8 sticky top-8 overflow-hidden"
-                initial={{ opacity: 0, x: -50, rotateY: -10 }}
-                animate={{ opacity: 1, x: 0, rotateY: 0 }}
-                transition={{ duration: 1, delay: 0.3 }}
-              >
-                <motion.div 
-                  className="mb-10 relative h-32 flex justify-center items-center"
-                  initial={{ opacity: 0, scale: 0.5 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  transition={{ duration: 1.2, delay: 0.5 }}
-                >
-                  <motion.div 
-                    className="w-24 h-24 rounded-full absolute border-2"
-                    style={{
-                      background: 'conic-gradient(from 0deg, rgba(59, 130, 246, 0.6), rgba(147, 51, 234, 0.6), rgba(236, 72, 153, 0.6), rgba(59, 130, 246, 0.6))'
-                    }}
-                    animate={{ rotate: 360 }}
-                    transition={{ repeat: Infinity, duration: 20, ease: "linear" }}
-                  />
-                  <motion.div 
-                    className="w-16 h-16 border-2 border-cyan-400/60 rounded-full absolute backdrop-blur-sm"
-                    animate={{ rotate: -360, scale: [1, 1.1, 1] }}
-                    transition={{ 
-                      rotate: { repeat: Infinity, duration: 25, ease: "linear" },
-                      scale: { repeat: Infinity, duration: 4, ease: "easeInOut" }
-                    }}
-                  />
-                  <motion.div 
-                    className="w-8 h-8 bg-gradient-to-r from-blue-400 to-purple-400 rounded-full absolute"
-                    animate={{ 
-                      scale: [1, 1.3, 1],
-                      opacity: [0.8, 1, 0.8]
-                    }}
-                    transition={{ 
-                      repeat: Infinity, 
-                      duration: 3, 
-                      ease: "easeInOut"
-                    }}
-                  />
-                </motion.div>
 
-                <motion.h3
-                  className="text-xl font-light text-center text-white mb-10 leading-relaxed"
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 0.8 }}
-                >
-                  Education Technology
-                  <br />
-                  <span className="text-white font-medium">
-                    Pioneer & Innovator
-                  </span>
-                </motion.h3>
-                  
-                <motion.button
-                  className="group w-full px-8 py-4 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 rounded-2xl text-sm font-medium relative overflow-hidden"
-                  whileHover={{ scale: 1.02 }}
-                  whileTap={{ scale: 0.98 }}
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 1 }}
-                >
-                  <motion.div
-                    className="absolute inset-0 bg-gradient-to-r from-blue-700 via-purple-700 to-pink-700"
-                    initial={{ x: '-100%' }}
-                    whileHover={{ x: 0 }}
-                    transition={{ duration: 0.3 }}
-                  />
-                  <span className="relative z-10 group-hover:text-white transition-colors">
-                    GET IN TOUCH
-                  </span>
-                </motion.button>
-              </motion.div>
-            </div>
-             */}
             {/* Enhanced Main Content */}
             <div className="lg:col-span-4 order-1 lg:order-2">
               {/* Enhanced Quote Section */}
@@ -420,26 +343,9 @@ const RubyPortfolio: FC = () => {
                 animate={{ opacity: 1, y: 0, scale: 1 }}
                 transition={{ duration: 1, delay: 0.4 }}
               >
-                {/* <motion.div
-                  className="absolute top-6 left-6 text-6xl text-blue-400/20 font-serif"
-                  initial={{ opacity: 0, scale: 0.5, rotate: -10 }}
-                  animate={{ opacity: 1, scale: 1, rotate: 0 }}
-                  transition={{ delay: 0.8 }}
-                >
-                  "
-                </motion.div> */}
-
-                {/* <motion.h3 
-                  className="text-2xl md:text-4xl lg:text-5xl font-bold leading-tight mb-10 text-white relative z-10"
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.8, delay: 0.6 }}
-                >
-                  A strong brand is a tool to connect people with your vision all around the world.
-                </motion.h3> */}
-
+               
                 <motion.div
-                  className="relative z-10 mb-8 w-full"
+                  className="relative z-10 w-full"
                   initial={{ opacity: 0, y: 15 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.8, delay: 0.8 }}
@@ -459,7 +365,7 @@ const RubyPortfolio: FC = () => {
 
               {/* Enhanced Sections */}
               <motion.div
-                className="md:p-10 relative overflow-hidden"
+                className="md:p-10 md:py-0 relative overflow-hidden"
                 initial="hidden"
                 animate="visible"
                 variants={containerVariants}
