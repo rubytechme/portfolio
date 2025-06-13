@@ -193,7 +193,7 @@ const RubyPortfolio: FC = () => {
   };
 
   return (
-    <div className="relative min-h-screen overflow-hidden">
+    <div className="relative min-h-screen overflow-hidden p-[1rem] py-[3rem]">
       {/* Enhanced Background */}
       <div className="fixed inset-0 bg-black">
         {/* Animated mesh gradient */}
@@ -302,7 +302,7 @@ const RubyPortfolio: FC = () => {
                 </div>
                 <div className="relative z-10 mb-0 md:mb-8">
                   <motion.h1
-                    className="text-6xl sm:text-5xl font-black leading-[0.9] mb-8 text-white"
+                    className="text-5xl font-black leading-[0.9] mb-8 text-white"
                     variants={itemVariants}
                   >
                     RUBY
@@ -352,7 +352,7 @@ const RubyPortfolio: FC = () => {
                 >
                   <div className="">
                     <p className="text-lg md:text-2xl text-white font-bold mb-2 leading-relaxed">Biography</p>
-                    <p className="text-lg md:text-2xl text-white font-light leading-relaxed">
+                    <p className="text-lg text-justify md:text-2xl text-white font-light leading-relaxed">
                       Ruby Ihekweme is the Founder & CEO of DigitaleyDrive, an edtech startup that powers the African Education sector by combining artificial intelligence, gamification and community learning to create personalized, engaging experiences, contributing
                       <span className="font-bold text-xl md:text-2xl mx-2">
                         $18.3 billion
@@ -378,7 +378,7 @@ const RubyPortfolio: FC = () => {
                     {sections.map((section, index) => (
                       <motion.p
                         key={index}
-                        className="text-white leading-relaxed text-lg md:text-2xl font-light"
+                        className="text-white text-justify leading-relaxed text-lg md:text-2xl font-light"
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: index * 0.2 }}
