@@ -13,7 +13,7 @@ const competencies = [
     color: "from-slate-900 to-neutral-950"
   },
   {
-    title: "Data Analytics", 
+    title: "Data Analytics",
     description: "I specialize in deriving actionable and strategic insights that would have been lost in a mass of information. This goes beyond insights to adopting the 5 whys & ensuring that solution created is root cause initiated.",
     icon: <Search size={24} />,
     color: "from-slate-900 to-neutral-950"
@@ -40,11 +40,11 @@ const competencies = [
 
 // Projects data
 const projects = [
-    {
-    title: "Automated Sales Dashboard", 
+  {
+    title: "Automated Sales Dashboard",
     description: "This dashboard delivers real-time sales insights using advanced time intelligence features to uncover performance trends. It highlights key metrics such as revenue growth, profit, and top-performing sales locations",
     tools: "PowerBI, PowerPoint",
-    images: [ "https://rubytechme.github.io/portfolio/portfolio/Sales Report.png","https://rubytechme.github.io/portfolio/portfolio/Sales.png",  "https://rubytechme.github.io/portfolio/portfolio/Sales from WhatsApp (1).png", "https://rubytechme.github.io/portfolio/portfolio/Sales from WhatsApp.png"],
+    images: ["https://rubytechme.github.io/portfolio/portfolio/Sales Report.png", "https://rubytechme.github.io/portfolio/portfolio/Sales.png", "https://rubytechme.github.io/portfolio/portfolio/Sales from WhatsApp (1).png", "https://rubytechme.github.io/portfolio/portfolio/Sales from WhatsApp.png"],
     // viewUrl: "https://app.powerbi.com/view?r=eyJrIjoiNzk0MzQ1ZTUtOTc4NC00OWQxLWFhZWYtN2U1NjI3MzI4NzNhIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9",
     githubUrl: "https://github.com/rubytechme/Automated-Sales-Performance-Tracker/blob/main/README.md",
     color: "from-green-400 to-green-600"
@@ -53,7 +53,7 @@ const projects = [
     title: "Product Market Fit Analysis",
     description: "This dashboard evaluates how effectively startups align with market realities at both entry and scale. It monitors key growth and engagement metrics including customer retention, engagement rate, and MoM customer growth to provide actionable insights into product-market fit and long-term scalability.",
     tools: "PowerBI, Google Forms, PowerPoint",
-    images: [ "https://rubytechme.github.io/portfolio/portfolio/PMF02 from WhatsApp.png", "https://rubytechme.github.io/portfolio/portfolio/PMF01.png"],
+    images: ["https://rubytechme.github.io/portfolio/portfolio/PMF02 from WhatsApp.png", "https://rubytechme.github.io/portfolio/portfolio/PMF01.png"],
     viewUrl: "https://app.powerbi.com/view?r=eyJrIjoiNzVhODMwZWItYjU2Mi00ZTlkLWI1ZWQtNjJhZjVkOGM2NDE3IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9",
     githubUrl: "https://github.com/rubytechme/Product-Market-Fit-Analysis/blob/main/README.md",
     color: "from-blue-400 to-blue-600"
@@ -72,7 +72,7 @@ const projects = [
     title: "Business Maturity Index Evaluation",
     description: "This analysis evaluates and tracks financial, operational, and customer-related metrics. Key insights reveal growth trends, profitability gaps, and strategic areas for improvement across the portfolio.",
     tools: "PowerBI, Google Forms, PowerPoint",
-    images: [ "https://rubytechme.github.io/portfolio/portfolio/BMI from WhatsApp.png",  "https://rubytechme.github.io/portfolio/portfolio/BMI (1).png", "https://rubytechme.github.io/portfolio/portfolio/BMI (2).png", "https://rubytechme.github.io/portfolio/portfolio/BMI.png", ], 
+    images: ["https://rubytechme.github.io/portfolio/portfolio/BMI from WhatsApp.png", "https://rubytechme.github.io/portfolio/portfolio/BMI (1).png", "https://rubytechme.github.io/portfolio/portfolio/BMI (2).png", "https://rubytechme.github.io/portfolio/portfolio/BMI.png",],
     // viewUrl: "https://app.powerbi.com/view?r=eyJrIjoiOTViNDY0YzItNzY1MS00NjFjLWI4ZTktMzJkNjVkNDAwOWNkIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9", 
     githubUrl: "https://github.com/rubytechme/Business-Maturity-Index-Management-Dashboard/blob/main/README.md",
     color: "from-orange-400 to-orange-600"
@@ -311,46 +311,33 @@ const RubyDataPortfolio: FC = () => {
               >
                 <Sparkles size={24} />
               </motion.div>
-              
+
               <div className='flex gap-6 items-end flex-col md:flex-row'>
                 <div className='flex  gap-4 mb-0 w-full items-end'>
                   <div className='w-40 h-40 overflow-hidden rounded-md'>
                     <Image
-                    src="https://rubytechme.github.io/portfolio/Passport from WhatsApp.JPG"
-                    alt="Ruby Ihekweme"
-                    width={384}
-                    height={100}
-                    className="w-full h-60 object-cover rounded-md "
-                  />
+                      src="https://rubytechme.github.io/portfolio/Passport from WhatsApp.JPG"
+                      alt="Ruby Ihekweme"
+                      width={384}
+                      height={100}
+                      className="w-full h-60 object-cover rounded-md "
+                    />
                   </div>
                   <div>
                     <motion.h1
-                    className="text-lg font-black leading-[0.9] text-white"
-                    variants={itemVariants}
-                  >
-                    RUBY
-                    {" "}
-                    <span className="text-white">
-                      IHEKWEME
-                    </span>
-                  </motion.h1>
-                  <h2 className="text-xl sm:text-2xl font-light text-white mb-2">
+                      className="text-lg font-black leading-[0.9] text-white"
+                      variants={itemVariants}
+                    >
+                      RUBY
+                      {" "}
+                      <span className="text-white">
+                        IHEKWEME
+                      </span>
+                    </motion.h1>
+                    <h2 className="text-xl sm:text-2xl font-light text-white mb-2">
                       Data Analyst
                     </h2>
                   </div>
-                </div>
-                <div className="relative z-10 mb-0 md:mb-8">
-                  {/* <motion.h1
-                    className="text-5xl font-black leading-[0.9] mb-8 text-white"
-                    variants={itemVariants}
-                  >
-                    RUBY
-                    {" "}
-                    <span className="text-white">
-                      IHEKWEME
-                    </span>
-                  </motion.h1> */}
-
                 </div>
               </div>
             </motion.div>
@@ -372,20 +359,19 @@ const RubyDataPortfolio: FC = () => {
               <p className="text-lg text-justify md:text-2xl text-white font-light leading-relaxed mb-8">
                 Hi, My name is Ruby Ihekweme
               </p>
-              
+
               <p className="text-lg text-justify md:text-2xl text-white font-light leading-relaxed mb-8">
                 I am a result-driven and process-oriented Data Analyst with experience in building efficient data pipelines and interactive visuals that tell compelling stories and deliver innovative solutions to problems. My core stack are: {" "}
-                    {/* <div className="flex items-center gap-3"> */}
-                      <span className="text-lg md:text-xl text-white/80 font-light">
-                        PowerBI • SQL • Python • Excel • Google Analytics
-                      </span>
+                {/* <div className="flex items-center gap-3"> */}
+                <span className="font-bold">
+                  PowerBI, SQL, Python, Excel, and Google Analytics.
+                </span>
               </p>
-       
-              
+
               <p className="text-lg text-justify md:text-2xl text-white font-light leading-relaxed mb-8">
-                Beyond just analyzing data, I also build scalable machine learning models to help companies stay on top of things. Possessing an expertise in both supervised and unsupervised models.
+                Beyond just analyzing data, I also build scalable machine learning models to help companies stay on top of things, possessing an expertise in both supervised and unsupervised models.
               </p>
-              
+
               <p className="text-lg text-justify md:text-2xl text-white font-light leading-relaxed mb-12">
                 I also embody strong Data Governance principles by ensuring data quality and integrity through rigorous data checks, standardization, and critical data wrangling/preprocessing.
               </p>
@@ -403,9 +389,9 @@ const RubyDataPortfolio: FC = () => {
             </motion.div>
           </motion.div>
 
-          {/* Core Competencies Section */}
+          {/* Projects Section */}
           <motion.div
-            className="mt-24 md:mt-32"
+            className="mt-24 md:mt-16"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1.2 }}
@@ -422,70 +408,6 @@ const RubyDataPortfolio: FC = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 1.4 }}
               >
-                Core Competencies
-              </motion.h2>
-
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                {competencies.map((competency, index) => (
-                  <motion.div
-                    key={index}
-                    className="group relative  rounded-xl p-4 overflow-hidden"
-                    whileHover={{
-                      scale: 1.02,
-                      y: -5,
-                      transition: { duration: 0.3 }
-                    }}
-                    initial={{ opacity: 0, y: 30 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 1.5 + index * 0.1 }}
-                  >
-                    <motion.div
-                      className={`absolute inset-0 bg-gradient-to-r ${competency.color} opacity-0 group-hover:opacity-5 transition-opacity duration-500`}
-                    />
-                    
-                    <div className="relative z-10">
-                      <div className="flex items-center gap-4 mb-6">
-                        <motion.div
-                          className={`p-3 rounded-lg bg-gradient-to-r ${competency.color} bg-opacity-20`}
-                          whileHover={{ rotate: 360 }}
-                          transition={{ duration: 0.6 }}
-                        >
-                          {competency.icon}
-                        </motion.div>
-                        <h3 className="text-xl font-bold text-white">
-                          {competency.title}
-                        </h3>
-                      </div>
-                      
-                      <p className="text-white/80 p-4 leading-relaxed text-justify backdrop-blur-xl bg-white/5 border border-white/10 p-2">
-                        {competency.description}
-                      </p>
-                    </div>
-                  </motion.div>
-                ))}
-              </div>
-            </motion.div>
-          </motion.div>
-
-          {/* Projects Section */}
-          <motion.div
-            className="mt-24 md:mt-32"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 1.8 }}
-          >
-            <motion.div
-              className="md:p-8"
-              initial={{ opacity: 0, y: 40 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 1.9 }}
-            >
-              <motion.h2
-                className="text-3xl md:text-4xl font-bold mb-12 text-white"
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 2.0 }}
-              >
                 Projects
               </motion.h2>
 
@@ -501,12 +423,12 @@ const RubyDataPortfolio: FC = () => {
                     }}
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 2.1 + index * 0.1 }}
+                    transition={{ delay: 1.5 + index * 0.1 }}
                   >
                     <motion.div
                       className={`absolute inset-0 bg-gradient-to-r ${project.color} opacity-0 group-hover:opacity-5 transition-opacity duration-500`}
                     />
-                    
+
                     {project.images && project.images.length > 0 && (
                       <div className="relative h-fit  overflow-hidden ">
                         {project.images.length === 1 ? (
@@ -537,7 +459,7 @@ const RubyDataPortfolio: FC = () => {
                                   zIndex: 50,
                                   x: -20,
                                   y: -20,
-                                  transition: { 
+                                  transition: {
                                     duration: 0.4,
                                     ease: "easeOut"
                                   }
@@ -548,7 +470,7 @@ const RubyDataPortfolio: FC = () => {
                                   zIndex: project.images.length - imgIndex,
                                   x: 0,
                                   y: 0,
-                                  transition: { 
+                                  transition: {
                                     duration: 0.4,
                                     ease: "easeOut"
                                   }
@@ -561,7 +483,7 @@ const RubyDataPortfolio: FC = () => {
                                     fill
                                     className="object-contain transition-transform duration-500"
                                   />
-                                  <motion.div 
+                                  <motion.div
                                     className="absolute inset-0 bg-black/20 transition-colors duration-500"
                                     whileHover={{ opacity: 0 }}
                                     animate={{ opacity: 0.2 }}
@@ -578,20 +500,20 @@ const RubyDataPortfolio: FC = () => {
                         )}
                       </div>
                     )}
-                    
+
                     <div className="relative z-10 p-8">
                       <h3 className="text-xl font-bold text-white mb-4 group-hover:text-white transition-colors">
                         {project.title}
                       </h3>
-                      
+
                       <p className="text-white/80 text-sm leading-relaxed mb-4 text-justify">
                         {project.description}
                       </p>
-                      
+
                       <p className="text-white/60 text-sm mb-6">
                         <span className="font-semibold">Tools used:</span> {project.tools}
                       </p>
-                      
+
                       <div className="flex justify-between bvo gap-4">
                         {project.viewUrl && (
                           <motion.a
@@ -605,7 +527,7 @@ const RubyDataPortfolio: FC = () => {
                             View Dashboard
                           </motion.a>
                         )}
-                        
+
                         {project.githubUrl && project.githubUrl !== "#" && (
                           <motion.a
                             href={project.githubUrl}
@@ -625,10 +547,9 @@ const RubyDataPortfolio: FC = () => {
               </div>
             </motion.div>
           </motion.div>
-
-          {/* Machine Learning Section */}
+{/* Machine Learning Section */}
           <motion.div
-            className="mt-24 md:mt-32"
+            className="mt-24 md:mt-16"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 2.3 }}
@@ -665,7 +586,7 @@ const RubyDataPortfolio: FC = () => {
                     <motion.div
                       className={`absolute inset-0 bg-gradient-to-r ${project.color} opacity-0 group-hover:opacity-5 transition-opacity duration-500`}
                     />
-                    
+
                     {project.images && project.images.length > 0 && (
                       <div className="relative h-fit overflow-hidden">
                         {project.images.length === 1 ? (
@@ -696,7 +617,7 @@ const RubyDataPortfolio: FC = () => {
                                   zIndex: 50,
                                   x: -20,
                                   y: -20,
-                                  transition: { 
+                                  transition: {
                                     duration: 0.4,
                                     ease: "easeOut"
                                   }
@@ -707,7 +628,7 @@ const RubyDataPortfolio: FC = () => {
                                   zIndex: project.images.length - imgIndex,
                                   x: 0,
                                   y: 0,
-                                  transition: { 
+                                  transition: {
                                     duration: 0.4,
                                     ease: "easeOut"
                                   }
@@ -720,7 +641,7 @@ const RubyDataPortfolio: FC = () => {
                                     fill
                                     className="object-contain transition-transform duration-500"
                                   />
-                                  <motion.div 
+                                  <motion.div
                                     className="absolute inset-0 bg-black/20 transition-colors duration-500"
                                     whileHover={{ opacity: 0 }}
                                     animate={{ opacity: 0.2 }}
@@ -737,20 +658,20 @@ const RubyDataPortfolio: FC = () => {
                         )}
                       </div>
                     )}
-                    
+
                     <div className="relative z-10 p-8">
                       <h3 className="text-xl font-bold text-white mb-4 group-hover:text-white transition-colors">
                         {project.title}
                       </h3>
-                      
+
                       <p className="text-white/80 text-sm leading-relaxed mb-4 text-justify">
                         {project.description}
                       </p>
-                      
+
                       <p className="text-white/60 text-sm mb-6">
                         <span className="font-semibold">Tools used:</span> {project.tools}
                       </p>
-                      
+
                       <div className="flex justify-between gap-4">
                         {/* {project.viewUrl && (
                           <motion.a
@@ -764,7 +685,7 @@ const RubyDataPortfolio: FC = () => {
                             View Colab
                           </motion.a>
                         )} */}
-                        
+
                         {project.githubUrl && project.githubUrl !== "#" && (
                           <motion.a
                             href={project.githubUrl}
@@ -784,6 +705,71 @@ const RubyDataPortfolio: FC = () => {
               </div>
             </motion.div>
           </motion.div>
+          {/* Core Competencies Section */}
+          <motion.div
+            className="mt-24 md:mt-16"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1.8 }}
+          >
+            <motion.div
+              className="md:p-8"
+              initial={{ opacity: 0, y: 40 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 1.9 }}
+            >
+              <motion.h2
+                className="text-3xl md:text-4xl font-bold mb-12 text-white"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 2.0 }}
+              >
+                Core Competencies
+              </motion.h2>
+
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                {competencies.map((competency, index) => (
+                  <motion.div
+                    key={index}
+                    className="group relative  rounded-xl p-4 overflow-hidden"
+                    whileHover={{
+                      scale: 1.02,
+                      y: -5,
+                      transition: { duration: 0.3 }
+                    }}
+                    initial={{ opacity: 0, y: 30 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 2.1 + index * 0.1 }}
+                  >
+                    <motion.div
+                      className={`absolute inset-0 bg-gradient-to-r ${competency.color} opacity-0 group-hover:opacity-5 transition-opacity duration-500`}
+                    />
+
+                    <div className="relative z-10">
+                      <div className="flex items-center gap-4 mb-6">
+                        <motion.div
+                          className={`p-3 rounded-lg bg-gradient-to-r ${competency.color} bg-opacity-20`}
+                          whileHover={{ rotate: 360 }}
+                          transition={{ duration: 0.6 }}
+                        >
+                          {competency.icon}
+                        </motion.div>
+                        <h3 className="text-xl font-bold text-white">
+                          {competency.title}
+                        </h3>
+                      </div>
+
+                      <p className="text-white/80 p-4 leading-relaxed text-justify backdrop-blur-xl bg-white/5 border border-white/10 p-2">
+                        {competency.description}
+                      </p>
+                    </div>
+                  </motion.div>
+                ))}
+              </div>
+            </motion.div>
+          </motion.div>
+
+          
 
           {/* Footer Section */}
           <motion.footer
@@ -794,7 +780,7 @@ const RubyDataPortfolio: FC = () => {
           >
             <div className="p-8 md:p-12">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-                
+
                 {/* Contact Information */}
                 <motion.div
                   className="space-y-6"
@@ -803,7 +789,7 @@ const RubyDataPortfolio: FC = () => {
                   transition={{ delay: 2.6 }}
                 >
                   <h5 className="text-2xl font-bold text-white mb-6">Get in Touch</h5>
-                  
+
                   <motion.a
                     href="mailto:rubyugonnaya@gmail.com"
                     className="flex items-center gap-4 text-white/80 hover:text-white transition-colors group"
@@ -825,7 +811,7 @@ const RubyDataPortfolio: FC = () => {
                   transition={{ delay: 2.7 }}
                 >
                   <h5 className="text-2xl font-bold text-white mb-6">Connect</h5>
-                  
+
                   <div className="flex flex-wrap gap-4">
                     {[
                       { name: 'LinkedIn', icon: <Linkedin size={18} />, url: 'https://www.linkedin.com/in/ruby-ihekweme-aat-aca-b25001174/' },
