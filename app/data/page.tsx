@@ -316,7 +316,7 @@ const RubyDataPortfolio: FC = () => {
                 <div className='flex  gap-4 mb-0 w-full items-end'>
                   <div className='w-40 h-40 overflow-hidden rounded-md'>
                     <Image
-                    src="/Passport from WhatsApp.JPG"
+                    src="https://rubytechme.github.io/portfolio/Passport from WhatsApp.JPG"
                     alt="Ruby Ihekweme"
                     width={384}
                     height={100}
