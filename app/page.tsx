@@ -293,7 +293,7 @@ const RubyPortfolio: FC = () => {
               <div className='flex gap-6 items-end flex-col md:flex-row'>
                 <div className='w-full md:w-88 h-auto mb-8'>
                   <Image
-                    src="/Passport from WhatsApp.JPG"
+                    src="https://rubytechme.github.io/portfolio/Passport%20from%20WhatsApp.JPG"
                     alt="Ruby Ihekweme"
                     width={384}
                     height={384}
