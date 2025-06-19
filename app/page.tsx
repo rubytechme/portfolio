@@ -9,7 +9,7 @@ const sections = [
     content: 'Her core expertise lies in educational innovation, digital transformation, data governance and analytics.'
   },
   {
-    content: 'Ruby received her BSc in Economics from the University of Lagos and a Diploma in Finance. She is an Associate Accounting Technician and Professional Chartered Accountant certified by Institute of Chartered Accountants of Nigeria. Ruby has over 6 years of consulting experience, Prior to starting Digitaley Drive. She played a big role in the technology sector as a data analytics & insights expert. Supporting firms with core analytics and reporting expertise needed to launch, scale and sustain. She started in KPMG, and moved up to 4 corporate organizations until Knight Ventures.'
+    content: 'Ruby received her BSc in Economics from the University of Lagos and a Diploma in Finance. She is an Associate Accounting Technician and a Professional Chartered Accountant certified by The Institute of Chartered Accountants of Nigeria. Ruby has over 6 years of consulting experience. Prior to starting Digitaley Drive, she played a big role in the technology sector as a data analytics & insights expert, supporting firms with core analytics and reporting expertise needed to launch, scale and sustain. She started in KPMG, and moved up to 4 corporate organizations until Knight Ventures.'
   },
   {
     content: 'While she was at knight ventures, she supported tech enabled startups across the education, fintech and energy sector in achieving Product Market Fit through various methodologies, research and evaluation. '
@@ -18,14 +18,14 @@ const sections = [
     content: 'Ruby is committed to promoting Quality Education through her Edtech Startup. So far, she has trained over 18000 talents across South Africa, Pakistan, Nigeria, Uk, Kenya, Ghana, USA, Dubai, Botswana, and Uganda, and has powered a community of 100,000+ youths. '
   },
   {
-    content: 'Her work has gained recognition in platforms like Guardian Nigeria, Techpoint, Nigerian Tribune, SuperFM, Numeris, Top Fm. Her groundbreaking idea has also been supported by the Lagos Innovates under the InnovateHer Female Founders Program. She was also recognised as a Top Female founder by the Flutter wave & Wetech PitchHER initiative. '
+    content: 'Her work has gained recognition on platforms like Guardian Nigeria, Techpoint, Nigerian Tribune, SuperFM, Numeris, Top Fm. Her groundbreaking idea has also been supported by the Lagos Innovates under the InnovateHer Female Founders Program. She was also recognised as a Top Female founder by the Flutter wave & Wetech PitchHER initiative. '
   },
   {
     title: "Impact programs",
-    content: "Building on her foundation as an education activist, she is also passionate about women empowerment. Of which she co-founded grow4her, a not for profit organization that is on a mission to empower every girl child by creating opportunities for them to learn, grow and  thrive."
+    content: "Building on her foundation as an education activist, Ruby is also passionate about women empowerment, of which she co-founded grow4her, a Not-for-Profit organization that is on a mission to empower every girl child by creating opportunities for HER to learn, grow and thrive."
   },
   {
-    content: "Ruby’s strong advocacy for social impact, started at the age of 16 under the Reachingoutforlove foundation, where she donated educational books to underprivileged children and supported multiple outreaches centered around feeding, and child education. In 2022, she served under the Model United Nations ( Lagos) where she contributed towards the draft writing on human trafficking and systematic racism.."
+    content: "Ruby’s strong advocacy for social impact, started at the age of 16 under the Reachingoutforlove foundation, where she donated educational books to underprivileged children and supported multiple outreaches centered around feeding, and child education. In 2022, she served under the Model United Nations ( Lagos) where she contributed towards the draft writing on human trafficking and systematic racism."
   },
   {
     content: "And today, through Grow4her, she has initiated and executed impactful educational programs that has empowered over 5,000 women to date."
@@ -353,11 +353,10 @@ const RubyPortfolio: FC = () => {
                   <div className="">
                     <p className="text-lg md:text-2xl text-white font-bold mb-2 leading-relaxed">Biography</p>
                     <p className="text-lg text-justify md:text-2xl text-white font-light leading-relaxed">
-                      Ruby Ihekweme is the Founder & CEO of DigitaleyDrive, an edtech startup that powers the African Education sector by combining artificial intelligence, gamification and community learning to create personalized, engaging experiences, contributing
+                      Ruby Ihekweme is the Founder & CEO of DigitaleyDrive, an edtech startup that powers the African Education sector by combining artificial intelligence, gamification and community learning to create a personalized, engaging and transformational learning experiences, contributing to Nigeria's digital economy of 
                       <span className="font-bold text-xl md:text-2xl mx-2">
-                        $18.3 billion
+                        $18.3 billion.
                       </span>
-                      to Nigeria's digital economy.
                     </p>
                   </div>
                 </motion.div>
