@@ -82,7 +82,7 @@ const bottomLinks = [
     title: 'Technical Portfolio', 
     icon: <Briefcase size={16} />, 
     color: 'from-teal-400 to-teal-600',
-    url: '',
+    url: 'https://rubytechme.github.io/portfolio/data/',
     description: 'Technical projects and development work'
   }
 ];
