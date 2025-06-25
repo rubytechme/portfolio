@@ -787,7 +787,7 @@ const RubyDataPortfolio: FC = () => {
                   <h5 className="text-2xl font-bold text-white mb-6">Get in Touch</h5>
 
                   <motion.a
-                    href="mailto:rubyugonnaya@gmail.com"
+                    href="mailto:rubyihekweme@gmail.com"
                     className="flex items-center gap-4 text-white/80 hover:text-white transition-colors group"
                     whileHover={{ x: 5 }}
                     transition={{ duration: 0.3 }}
@@ -795,7 +795,7 @@ const RubyDataPortfolio: FC = () => {
                     <div className="p-2 rounded-lg bg-white/10 group-hover:bg-white/20 transition-colors">
                       <Mail size={18} />
                     </div>
-                    <span className="text-lg">rubyugonnaya@gmail.com</span>
+                    <span className="text-lg">rubyihekweme@gmail.com</span>
                   </motion.a>
                 </motion.div>
 
