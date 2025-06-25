@@ -490,12 +490,12 @@ const RubyPortfolio: FC = () => {
 
           {/* Footer Section */}
           <motion.footer
-            className="mt-32 border-t border-white/10"
+            className="mt-16 md:mt-32 border-t border-white/10"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 2 }}
           >
-            <div className="p-8 md:p-12">
+            <div className="p-4 md:p-12">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                 
                 {/* Contact Information */}

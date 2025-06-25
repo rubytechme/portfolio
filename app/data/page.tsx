@@ -41,7 +41,7 @@ const competencies = [
 // Projects data
 const projects = [
   {
-    title: "Automated Sales Dashboard",
+    title: "Automated Sales Tracer",
     description: "This dashboard delivers real-time sales insights using advanced time intelligence features to uncover performance trends. It highlights key metrics such as revenue growth, profit, and top-performing sales locations",
     tools: "PowerBI, PowerPoint",
     images: ["https://rubytechme.github.io/portfolio/portfolio/Sales Report.png", "https://rubytechme.github.io/portfolio/portfolio/Sales.png", "https://rubytechme.github.io/portfolio/portfolio/Sales from WhatsApp (1).png", "https://rubytechme.github.io/portfolio/portfolio/Sales from WhatsApp.png"],
@@ -60,10 +60,10 @@ const projects = [
   },
 
   {
-    title: "Management Sales Tracker",
+    title: "Sales Intelligence & Performance dashboard",
     description: "This is a Sales Performance Management Dashboard designed to optimize sales strategy and execution. It provides real-time tracking of key performance indicators such as top-performing product categories, revenue trends, and growth drivers—enabling data-driven decisions that enhance overall sales efficiency and profitability.",
     tools: "PowerBI, PowerPoint",
-    images: [],
+    images: ["https://rubytechme.github.io/portfolio/portfolio/WhatsApp Image 2025-06-25 at 02.26.42.jpeg", "https://rubytechme.github.io/portfolio/portfolio/WhatsApp Image 2025-06-25 at 02.26.42 (1).jpeg", "https://rubytechme.github.io/portfolio/portfolio/WhatsApp Image 2025-06-25 at 02.26.42 (2).jpeg"],
     // viewUrl: "https://app.powerbi.com/view?r=eyJrIjoiMjA4ZDJkNGYtNThjYS00M2Y0LTg1ZjktNzY0YzU5YjNmNzY3IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9",
     // githubUrl: "https://github.com/rubytechme/Management-Sales-Tracker",
     color: "from-purple-400 to-purple-600"
@@ -515,9 +515,8 @@ const RubyDataPortfolio: FC = () => {
                       </p>
 
                       <div className="flex justify-between bvo gap-4">
-                        {project.viewUrl && (
                           <motion.a
-                            href={project.viewUrl}
+                            href={project.viewUrl ? project.viewUrl : "#"}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="flex items-center gap-2 border border-white/20 p-3 rounded-lg text-white/80 hover:text-white transition-colors text-sm"
@@ -526,11 +525,9 @@ const RubyDataPortfolio: FC = () => {
                             <ExternalLink size={16} />
                             View Dashboard
                           </motion.a>
-                        )}
 
-                        {project.githubUrl && project.githubUrl !== "#" && (
                           <motion.a
-                            href={project.githubUrl}
+                            href={project.githubUrl ? project.githubUrl : "#"}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="flex items-center gap-2 border border-white/20 p-3 rounded-lg text-white/80 hover:text-white transition-colors text-sm"
@@ -539,7 +536,6 @@ const RubyDataPortfolio: FC = () => {
                             <Github size={16} />
                             View GitHub
                           </motion.a>
-                        )}
                       </div>
                     </div>
                   </motion.div>
@@ -547,7 +543,7 @@ const RubyDataPortfolio: FC = () => {
               </div>
             </motion.div>
           </motion.div>
-{/* Machine Learning Section */}
+
           <motion.div
             className="mt-24 md:mt-16"
             initial={{ opacity: 0 }}
@@ -773,12 +769,12 @@ const RubyDataPortfolio: FC = () => {
 
           {/* Footer Section */}
           <motion.footer
-            className="mt-32 border-t border-white/10"
+            className="mt-16 md:mt-32 border-t border-white/10"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 2.5 }}
           >
-            <div className="p-8 md:p-12">
+            <div className="p-4 md:p-12">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
 
                 {/* Contact Information */}
