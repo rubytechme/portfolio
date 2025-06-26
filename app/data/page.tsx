@@ -41,7 +41,7 @@ const competencies = [
 // Projects data
 const projects = [
   {
-    title: "Automated Sales Tracer",
+    title: "Automated Sales tracker",
     description: "This dashboard delivers real-time sales insights using advanced time intelligence features to uncover performance trends. It highlights key metrics such as revenue growth, profit, and top-performing sales locations",
     tools: "PowerBI, PowerPoint",
     images: ["https://rubytechme.github.io/portfolio/portfolio/Sales Report.png", "https://rubytechme.github.io/portfolio/portfolio/Sales.png", "https://rubytechme.github.io/portfolio/portfolio/Sales from WhatsApp (1).png", "https://rubytechme.github.io/portfolio/portfolio/Sales from WhatsApp.png"],
