@@ -65,7 +65,7 @@ const projects = [
     tools: "PowerBI, PowerPoint",
     images: ["https://rubytechme.github.io/portfolio/portfolio/WhatsApp Image 2025-06-25 at 02.26.42.jpeg", "https://rubytechme.github.io/portfolio/portfolio/WhatsApp Image 2025-06-25 at 02.26.42 (1).jpeg", "https://rubytechme.github.io/portfolio/portfolio/WhatsApp Image 2025-06-25 at 02.26.42 (2).jpeg"],
     // viewUrl: "https://app.powerbi.com/view?r=eyJrIjoiMjA4ZDJkNGYtNThjYS00M2Y0LTg1ZjktNzY0YzU5YjNmNzY3IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9",
-    // githubUrl: "https://github.com/rubytechme/Management-Sales-Tracker",
+    githubUrl: "https://github.com/rubytechme/Sales-Intelligence-Performance-Dashboard",
     color: "from-purple-400 to-purple-600"
   },
   {
@@ -95,6 +95,26 @@ const projects = [
     githubUrl: "https://github.com/rubytechme/ETL-Analysis-FinTech/blob/main/README.md",
     color: "from-indigo-400 to-indigo-600"
   },
+  {
+    title: "Product Performance Review",
+    description: "This dashboard presents a year-over-year comparison of key performance metrics, including revenue, profit, cost, and quantity sold. It uncovers growth trends, shifts in product demand, and evolving regional performance, enabling strategic insights for improving margins and accelerating market expansion.",
+    tools: "Excel",
+    images: ["https://rubytechme.github.io/portfolio/portfolio/WhatsApp Image Jul 6 2025 (1).jpeg", "https://rubytechme.github.io/portfolio/portfolio/WhatsApp Image Jul 6 2025 (1).jpeg", "https://rubytechme.github.io/portfolio/portfolio/WhatsApp Image Jul 6 2025 (1).jpeg", "https://rubytechme.github.io/portfolio/portfolio/WhatsApp Image Jul 6 2025 (1).jpeg"],
+    // viewUrl: "https://colab.research.google.com/drive/1234567890abcdef",
+    githubUrl: "https://github.com/rubytechme/Product-Performance-Review",
+    color: "from-indigo-400 to-indigo-600",
+    disableAnimation: true
+  },
+  {
+    title: "Market & Sales Performance - Furniture Store",
+    description: "A comprehensive view of regional sales distribution, product category performance, and shipping behaviors. This dashboard identifies high-performing cities and states, product synergies, and customer shipping preferences to inform smarter inventory, marketing, and fulfillment strategies.",
+    tools: "Excel",
+    images: ["https://rubytechme.github.io/portfolio/portfolio/WhatsApp Image Jul 6 2025.jpeg", "https://rubytechme.github.io/portfolio/portfolio/WhatsApp Image Jul 6 2025.jpeg", "https://rubytechme.github.io/portfolio/portfolio/WhatsApp Image Jul 6 2025.jpeg", "https://rubytechme.github.io/portfolio/portfolio/WhatsApp Image Jul 6 2025.jpeg"],
+    // viewUrl: "https://colab.research.google.com/drive/1234567890abcdef",
+    githubUrl: "https://github.com/rubytechme/Market-Sales-Performance-Furniture-Store",
+    color: "from-indigo-400 to-indigo-600",
+    disableAnimation: true
+  }
 
 ];
 
@@ -453,27 +473,30 @@ const RubyDataPortfolio: FC = () => {
                                   left: `${(imgIndex + .5) * 30}px`,
                                   zIndex: project.images.length - imgIndex,
                                 }}
-                                whileHover={{
-                                  scale: 1.3,
-                                  rotate: 0,
-                                  zIndex: 50,
-                                  x: -20,
-                                  y: -20,
-                                  transition: {
-                                    duration: 0.4,
-                                    ease: "easeOut"
-                                  }
-                                }}
+                                whileHover={
+                                  project.disableAnimation
+                                    ? undefined
+                                    : {
+                                        scale: 1.3,
+                                        rotate: 0,
+                                        zIndex: 50,
+                                        x: -20,
+                                        y: -20,
+                                        transition: {
+                                          duration: 0.4,
+                                          ease: "easeOut",
+                                        },
+                                      }
+                                }
                                 animate={{
                                   scale: 1,
-                                  // rotate: imgIndex * 2 - 3,
                                   zIndex: project.images.length - imgIndex,
                                   x: 0,
                                   y: 0,
                                   transition: {
                                     duration: 0.4,
-                                    ease: "easeOut"
-                                  }
+                                    ease: "easeOut",
+                                  },
                                 }}
                               >
                                 <div className="relative w-full h-full overflow-hidden rounded-lg shadow-2xl border border-white/10">
