@@ -15,7 +15,7 @@ const sections = [
     content: 'While she was at knight ventures, she supported tech enabled startups across the education, fintech and energy sector in achieving Product Market Fit through various methodologies, research and evaluation. '
   },
   {
-    content: 'Ruby is committed to promoting Quality Education through her Edtech Startup. So far, she has trained over 18000 talents across South Africa, Pakistan, Nigeria, Uk, Kenya, Ghana, USA, Dubai, Botswana, and Uganda, and has powered a community of 100,000+ youths. '
+    content: 'Ruby is committed to promoting Quality Education through her Edtech Startup. So far, she has trained over 18000 talents across South Africa, Pakistan, Nigeria, Uk, Kenya, Ghana, USA, Dubai, Botswana, and Uganda, and has powered a community of 100,000+ youths, with a community GDP of $580,000 '
   },
   {
     content: 'Her work has gained recognition on platforms like Guardian Nigeria, Techpoint, Nigerian Tribune, SuperFM, Numeris, Top Fm. Her groundbreaking idea has also been supported by the Lagos Innovates under the InnovateHer Female Founders Program. She was also recognised as a Top Female founder by the Flutter wave & Wetech PitchHER initiative. '
@@ -36,51 +36,51 @@ const sections = [
 ];
 
 const bottomLinks = [
-  { 
-    title: 'Article Features', 
-    icon: <BookOpen size={16} />, 
+  {
+    title: 'Article Features',
+    icon: <BookOpen size={16} />,
     color: 'from-gray-400 to-gray-600',
     url: 'https://sites.google.com/view/articlesfeatures/home',
     description: 'Collection of articles and media features'
   },
-  { 
-    title: 'Project EducateTheChild', 
-    icon: <Heart size={16} />, 
+  {
+    title: 'Project EducateTheChild',
+    icon: <Heart size={16} />,
     color: 'from-pink-400 to-pink-600',
     url: 'https://sites.google.com/view/projectempowerher/home',
     description: 'Empowering young girls and boys in primary and secondary schools with study tools'
   },
-  { 
-    title: 'Project EmpowerHer', 
-    icon: <Users size={16} />, 
+  {
+    title: 'Project EmpowerHer',
+    icon: <Users size={16} />,
     color: 'from-purple-400 to-purple-600',
     url: 'https://sites.google.com/view/project-empowerher/home',
     description: 'Empowering 300 youths from Ingressive4Good community in higher institutions'
   },
-  { 
-    title: '10,000 Women in Tech', 
-    icon: <Award size={16} />, 
+  {
+    title: '10,000 Women in Tech',
+    icon: <Award size={16} />,
     color: 'from-blue-400 to-blue-600',
     url: 'https://sites.google.com/view/projectwomenintechtestimonial/home',
     description: 'Getting 10,000 women into tech by 2025. 5,000+ trained in AI, Data Analytics & Data Science'
   },
-  { 
-    title: 'Speaking Engagements', 
-    icon: <Users size={16} />, 
+  {
+    title: 'Speaking Engagements',
+    icon: <Users size={16} />,
     color: 'from-green-400 to-green-600',
     url: 'https://sites.google.com/view/speakingengament/home',
     description: 'Ruby\'s speaking portfolio and engagements'
   },
-  { 
-    title: 'Blog & Articles', 
-    icon: <BookOpen size={16} />, 
+  {
+    title: 'Blog & Articles',
+    icon: <BookOpen size={16} />,
     color: 'from-indigo-400 to-indigo-600',
     url: 'https://medium.com/@rubyugonnaya',
     description: 'Personal blog and thought leadership articles'
   },
-  { 
-    title: 'Technical Portfolio', 
-    icon: <Briefcase size={16} />, 
+  {
+    title: 'Technical Portfolio',
+    icon: <Briefcase size={16} />,
     color: 'from-teal-400 to-teal-600',
     url: 'https://rubytechme.github.io/portfolio/data/',
     description: 'Technical projects and development work'
@@ -317,7 +317,7 @@ const RubyPortfolio: FC = () => {
                     variants={itemVariants}
                   >
                     <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-light text-white mb-2">
-                      Founder & Managing Director
+                      CEO/Managing Director
                     </h2>
                     <div className="flex items-center gap-3">
                       {/* <div className="h-px bg-white flex-1"></div> */}
@@ -343,7 +343,7 @@ const RubyPortfolio: FC = () => {
                 animate={{ opacity: 1, y: 0, scale: 1 }}
                 transition={{ duration: 1, delay: 0.4 }}
               >
-               
+
                 <motion.div
                   className="relative z-10 w-full"
                   initial={{ opacity: 0, y: 15 }}
@@ -353,9 +353,9 @@ const RubyPortfolio: FC = () => {
                   <div className="">
                     <p className="text-lg md:text-2xl text-white font-bold mb-2 leading-relaxed">Biography</p>
                     <p className="text-lg text-justify md:text-2xl text-white font-light leading-relaxed">
-                      Ruby Ihekweme is the Founder & CEO of DigitaleyDrive, an edtech startup that powers the African Education sector by combining artificial intelligence, gamification and community learning to create a personalized, engaging and transformational learning experiences, contributing to Nigeria's digital economy of 
+                      Ruby Ihekweme is the Founder & CEO of DigitaleyDrive, an edtech startup that powers the African Education sector by combining artificial intelligence, gamification and community learning to create a personalized, engaging and transformational learning experiences, Contributing to Africa’s digital economy of
                       <span className="font-bold text-xl md:text-2xl mx-2">
-                        $18.3 billion.
+                        $22.7 billion.
                       </span>
                     </p>
                   </div>
@@ -466,7 +466,7 @@ const RubyPortfolio: FC = () => {
                             </motion.div>
                           )}
                         </div>
-                        
+
                         <div className="flex-1">
                           <h5 className="font-bold text-lg text-white group-hover:text-white transition-colors duration-300 mb-2">
                             {link.title}
@@ -497,7 +497,7 @@ const RubyPortfolio: FC = () => {
           >
             <div className="p-4 md:p-12">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-                
+
                 {/* Contact Information */}
                 <motion.div
                   className="space-y-6"
@@ -506,7 +506,7 @@ const RubyPortfolio: FC = () => {
                   transition={{ delay: 2.1 }}
                 >
                   <h5 className="text-2xl font-bold text-white mb-6">Get in Touch</h5>
-                  
+
                   <motion.a
                     href="mailto:ruby.ihekweme@digitaleydrive.com"
                     className="flex items-center gap-4 text-white/80 hover:text-white transition-colors group"
@@ -528,7 +528,7 @@ const RubyPortfolio: FC = () => {
                   transition={{ delay: 2.2 }}
                 >
                   <h5 className="text-2xl font-bold text-white mb-6">Connect</h5>
-                  
+
                   <div className="flex flex-wrap gap-4">
                     {[
                       { name: 'LinkedIn', icon: <Linkedin size={18} />, url: 'https://www.linkedin.com/in/ruby-ihekweme-aat-aca-b25001174/' },
